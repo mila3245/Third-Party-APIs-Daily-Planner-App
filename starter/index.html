@@ -4,10 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    />
+
+    <meta http-equiv='cache-control' content='no-cache'> 
+    <meta http-equiv='expires' content='0'> 
+    <meta http-equiv='pragma' content='no-cache'>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
@@ -28,11 +31,136 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
-    <div class="container">
-      <!-- Timeblocks go here -->
-    </div>
+
+      <div class="container  ">
+
+
+        <div class="row">
+          <div class="col-2 hour" id="9AM">
+            9 AM
+          </div>
+
+          <div class="col-8 input-field ">
+            <label for="task"></label>
+            <input type="text" id="task1" class="task" name="task">
+          </div>
+
+          <div class="col-2 saveBtn">
+            <button type="button" class="btn shadow-none clickBtn1">Save</button>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-2 hour" id="10AM">
+            10 AM
+          </div>
+          <div class="col-8 input-field">
+            <label for="task"></label>
+            <input type="text" id="task2" class="task" name="task">
+
+          </div>
+          <div class="col-2 saveBtn">
+            <button type="button" class="btn shadow-none clickBtn2">Save</button>
+          </div>
+        </div>
+
+        <div class="row" >
+          <div class="col-2 hour" id="11AM">
+            11 AM
+          </div>
+          <div class="col-8 input-field">
+            <label for="task"></label>
+            <input type="text" id="task3" class="task" name="task">
+          </div>
+          <div class="col-2 saveBtn clickBtn3">
+            <button type="button" class="btn shadow-none ">Save</button>
+          </div>
+        </div>
+
+        <div class="row" >
+          <div class="col-2 hour" id="12PM">
+            12 PM
+          </div>
+          <div class="col-8 input-field">
+            <label for="task"></label>
+            <input type="text" id="task4" class="task" name="task">
+          </div>
+          <div class="col-2 saveBtn clickBtn4">
+            <button type="button" class="btn shadow-none ">Save</button>
+          </div>
+        </div>
+
+        <div class="row" >
+          <div class="col-2 hour" id="13PM">
+            1 PM
+          </div>
+          <div class="col-8 input-field">
+            <label for="task"></label>
+            <input type="text" id="task5" class="task" name="task">
+          </div>
+          <div class="col-2 saveBtn clickBtn5">
+            <button type="button" class="btn shadow-none ">Save</button>
+          </div>
+        </div>
+
+        <div class="row" >
+          <div class="col-2 hour" id="2PM">
+            2 PM
+          </div>
+          <div class="col-8 input-field">
+            <label for="task"></label>
+            <input type="text" id="task6" class="task" name="task">
+          </div>
+          <div class="col-2 saveBtn clickBtn6">
+            <button type="button" class="btn shadow-none ">Save</button>
+          </div>
+        </div>
+
+        <div class="row" >
+          <div class="col-2 hour" id="3PM">
+            3 PM
+          </div>
+          <div class="col-8 input-field">
+            <label for="task"></label>
+            <input type="text" id="task7" class="task" name="task">
+          </div>
+          <div class="col-2 saveBtn clickBtn7">
+            <button type="button" class="btn shadow-none ">Save</button>
+          </div>
+        </div>
+
+        <div class="row" >
+          <div class="col-2 hour" id="4PM">
+            4 PM
+          </div>
+          <div class="col-8 input-field">
+            <label for="task"></label>
+            <input type="text" id="task8" class="task" name="task">
+          </div>
+          <div class="col-2 saveBtn clickBtn8">
+            <button type="button" class="btn shadow-none ">Save</button>
+          </div>
+        </div>
+
+        <div class="row" >
+          <div class="col-2 hour" id="5PM">
+            5 PM
+          </div>
+          <div class="col-8 input-field">
+            <label for="task"></label>
+            <input type="text" id="task9" class="task" name="task">
+          </div>
+          <div class="col-2 saveBtn clickBtn9">
+            <button type="button" class="btn shadow-none ">Save</button>
+          </div>
+        </div>
+  
+      
+      </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
